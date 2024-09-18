@@ -16,7 +16,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1 className="w-full text-3xl sm:text-4xl font-bold">Կառուցապատող Ընկերություն</h1>
+        <h1 className="w-full text-3xl sm:text-4xl font-bold">Շինարարական Ընկերություն</h1>
 
         <div className="w-full max-w-4xl text-center mx-auto text-lg mt-4">
           <p className="mb-4"><strong>ENKI CONSTRUCTION</strong> ընկերությունը հիմնադրվել է 2019թ.</p>

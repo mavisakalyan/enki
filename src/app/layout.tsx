@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Enki Construction",
-  description: "Կառուցապատող Ընկերություն",
+  description: "Շինարարական Ընկերություն",
 };
 
 export default function RootLayout({
