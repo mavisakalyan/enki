@@ -30,7 +30,7 @@ export default function Home() {
         <div className="w-full">
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
             {[
-              { src: "/JellyFish.png", alt: "Photo by Minh Pham", label: "Jelly Fish" },
+              { src: "/JellyFish.png", alt: "Photo by Minh Pham", label: "JellyFish" },
               { src: "/Digitain.png", alt: "Photo by Magicle", label: "Digitain", span: "md:col-span-2" },
               { src: "/Forrest.png", alt: "Photo by Martin Sanchez", label: "Forrest Residence", span: "md:col-span-2" },
               { src: "/FoodPark.png", alt: "Photo by Lorenzo Herrera", label: "Food Park" },
