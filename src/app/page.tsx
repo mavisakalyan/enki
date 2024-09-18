@@ -79,7 +79,7 @@ export default function Home() {
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         {[
           { href: "https://www.facebook.com/profile.php?id=61557064264432", label: "Facebook →" },
-          { href: "https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app", label: "Instagram →" },
+          { href: "https://www.instagram.com/forrestresidence?igsh=bjVya2huMGF6ajdq", label: "Instagram →" },
         ].map(({ href, label }, index) => (
           <a
             key={index}
