@@ -13,6 +13,7 @@ export default function Home() {
           height={38}
           priority
         />
+        <h1 className="text-3xl font-bold">Կառուցապատող Ընկերություն</h1>
         <p className="text-center w-full">
           Հեռախոս: +374 44 888109 <br />
           <a href="mailto:info@enki.construction" className="underline">Էլ-հասցե: info@enki.construction</a>
