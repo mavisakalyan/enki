@@ -16,7 +16,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1 className="w-full text-3xl sm:text-5xl font-bold">Կառուցապատող Ընկերություն</h1>
+        <h1 className="w-full text-3xl sm:text-4xl font-bold">Կառուցապատող Ընկերություն</h1>
 
         <div className="w-full max-w-4xl text-center mx-auto text-lg mt-4">
           <p className="mb-4"><strong>ENKI CONSTRUCTION</strong> ընկերությունը հիմնադրվել է 2019թ.</p>
@@ -25,7 +25,7 @@ export default function Home() {
           <p className="mb-4">▪Մենք նաև գնահատում ենք մեր աշխատակիցներին և գործընկերներին, յուրաքանչյուր մարդու, ով նպաստում է մեր աշխատանքին և օգնում մեզ իրականացնել մեր նախագծերը: Փոխըմբռնման, հարգանքի, ազնվության և որակի շնորհիվ մենք ստեղծում ենք ապահով և հաջողակ ապագա բոլորիս համար:</p>
         </div>
 
-        <h1 className="w-full text-3xl sm:text-5xl font-bold mt-16 uppercase">Աշխատանքներ</h1>
+        <h1 className="w-full text-3xl sm:text-4xl font-bold mt-16 uppercase">Աշխատանքներ</h1>
 
         <div className="w-full">
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
@@ -55,13 +55,13 @@ export default function Home() {
           </div>
         </div>
 
-        <h1 className="w-full text-3xl sm:text-5xl font-bold mt-16 uppercase">Ծառայություններ</h1>
+        <h1 className="w-full text-3xl sm:text-4xl font-bold mt-16 uppercase">Ծառայություններ</h1>
 
         <ul className="w-full max-w-4xl text-left mx-auto mt-4">
           {[
             "Հողային աշխատանքներ",
             "Բետոնային աշխատանքներ",
-            "Ներքին եւ արտաքին հարդարման աշխատանքներ",
+            "Ներքին և արտաքին հարդարման աշխատանքներ",
             "Բարեկարգման աշխատանքներ",
             "Հիդրոտեխնիկական ծառայություններ",
             "Նախագծման աշխատանքներ"
@@ -70,7 +70,7 @@ export default function Home() {
           ))}
         </ul>
 
-        <h1 className="w-full text-3xl sm:text-5xl font-bold mt-20">Հետադարձ Կապ:</h1>
+        <h1 className="w-full text-3xl sm:text-4xl font-bold mt-20">Հետադարձ Կապ:</h1>
         <p className="text-center w-full">
           Հեռախոս: +374 44 888109 <br />
           <a href="mailto:info@enki.construction" className="underline">Էլ-հասցե: info@enki.construction</a>
