@@ -87,7 +87,7 @@ export default function Home() {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-          >
+          > 
             <Image
               aria-hidden
               src="https://nextjs.org/icons/globe.svg"
