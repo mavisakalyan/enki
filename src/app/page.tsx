@@ -30,26 +30,26 @@ export default function Home() {
         <div className="w-full">
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
             {[
-              { src: "/JellyFish.png", alt: "Photo by Minh Pham", label: "JellyFish" },
-              { src: "/Digitain.png", alt: "Photo by Magicle", label: "Digitain", span: "md:col-span-2" },
-              { src: "/Forrest.png", alt: "Photo by Martin Sanchez", label: "Forrest Residence", span: "md:col-span-2" },
-              { src: "/FoodPark.png", alt: "Photo by Lorenzo Herrera", label: "Food Park" },
+              { src: "/JellyFish.png", alt: "Photo by Minh Pham", label: "JellyFish", href: "https://www.jellyfish.am/" },
+              { src: "/Digitain.png", alt: "Photo by Magicle", label: "Digitain", span: "md:col-span-2", href: "https://www.digitain.com/" },
+              { src: "/Forrest.png", alt: "Photo by Martin Sanchez", label: "Forrest Residence", span: "md:col-span-2", href: "https://www.facebook.com/ForRestResidence" },
+              { src: "/FoodPark.png", alt: "Photo by Lorenzo Herrera", label: "Food Park", href: "https://www.facebook.com/foodparkbydowntown" },
               { src: "/House.jpg", alt: "Photo by Minh Pham", label: "House" },
-              { src: "/Cartez.png", alt: "Photo by Magicle", label: "Cartez", span: "md:col-span-2" },
-            ].map(({ src, alt, label, span }, index) => (
+              { src: "/Cartez.png", alt: "Photo by Magicle", label: "Cartez", span: "md:col-span-2", href: "https://www.instagram.com/cartez.hotel/" },
+            ].map(({ src, alt, label, span, href }, index) => (
               <a
-                key={index}
-                href="#"
-                className={`group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 ${span || ""}`}
+              key={index}
+              href={href || "#"}
+              className={`group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 ${span || ""}`}
               >
-                <img
-                  src={src}
-                  loading="lazy"
-                  alt={alt}
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-                <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">{label}</span>
+              <img
+                src={src}
+                loading="lazy"
+                alt={alt}
+                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">{label}</span>
               </a>
             ))}
           </div>
